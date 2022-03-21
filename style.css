@@ -5,21 +5,21 @@
 }
 
 body {
-    height: 100vh;
     font-family: 'Courier New', Courier, monospace;
     background-color: salmon;
+    position: relative;
 }
 
 .container {
     height: 100%;
-    position: relative;
-    left: 30%;
-    top: 10%;
+    position: absolute;
+    left: 33%;
+    top: 50px;
 }
 
 .div_verbe {
-    position: absolute;
-    top: 10%;
+    position: relative;
+    top: 10rem;
 }
 
 label,
