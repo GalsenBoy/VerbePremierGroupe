@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: salmon;
+}
+
+.container {
+    height: 100%;
+    position: relative;
+    left: 30%;
+    top: 10%;
+}
+
+.div_verbe {
+    position: absolute;
+    top: 10%;
+}
+
+label,
+#verbe,
+.btn {
+    font-size: 2rem;
+}
+
+.btn {
+    border-radius: 17px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: black;
+    color: salmon;
+}
+
+::placeholder {
+    opacity: 0.5;
+    color: salmon;
+}
+
+input {
+    background-color: rgb(31, 30, 30);
+    border: none;
+    color: salmon;
+}
+
+input:focus {
+    border: none;
+}
