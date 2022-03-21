@@ -13,7 +13,7 @@ btn.addEventListener('click', function(e) {
     if (input.slice(-2) == 'er' && input.toLowerCase() != "aller") {
         for (i = 0; i < 6; i++) {
             console.log(`${pronons[i]} ${verbe}${terminaisons[i]}`);
-            if (input == 'manger') {
+            if (input.slice(-3) == 'ger') {
                 terminaisons[3] = 'eons';
             }
         }
